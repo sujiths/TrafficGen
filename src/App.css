@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header {
+	display: block;
+	background: #3f51b5;
+	font-size: 40px;
+	color: white;
+	padding-top: 10px;
+	padding-left: 10%;
+	height: 60px;
+}
+
+.separator {
+	display: block;
+	content: "";
+	height:50px;
+
+}
+
+.button-traff {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background:#3f51b5; /* this is a green */
+}
+
+
+.App-link {
+  color: #09d3ac;
+}
